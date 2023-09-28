@@ -1,2 +1,1 @@
 # FrenTosh
-print("hola")
