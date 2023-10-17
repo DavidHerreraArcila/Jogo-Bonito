@@ -46,7 +46,7 @@ Frentosh se esfuerza por ofrecer una experiencia de compra en línea sencilla y 
 
 5. **Seguimiento y Análisis del Usuario:** JavaScript se usa para implementar herramientas de análisis web que proporcionan información valiosa sobre el comportamiento de los visitantes en tu sitio web.
 
-En resumen, Python se utiliza principalmente para la automatización de procesos comerciales y el análisis de datos, mientras que JavaScript se enfoca en el desarrollo de la funcionalidad y la interactividad de tu sitio web. Estas dos tecnologías se complementan perfectamente para brindar una experiencia de usuario más completa y mejorar la eficiencia de tu negocio de Frentosh en línea.
+ Python se utiliza principalmente para la automatización de procesos comerciales y el análisis de datos, mientras que JavaScript se enfoca en el desarrollo de la funcionalidad y la interactividad de tu sitio web. Estas dos tecnologías se complementan perfectamente para brindar una experiencia de usuario más completa y mejorar la eficiencia de tu negocio de Frentosh en línea.
 
 
 
