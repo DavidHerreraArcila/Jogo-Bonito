@@ -1,0 +1,131 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: rgb(245, 255, 0);
+    background:   #faf3e0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Estilos de la cabecera */
+header {
+    background: #faf3e0;
+    border-radius: 10px 10px 0 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.logo h1 {
+    font-size: 70px;
+    margin: 0;
+    color: #000000;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #007BFF;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+/* Estilos de los productos */
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.producto {
+    width: 45%;
+    margin: 20px 0;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color:  #e09232;;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    text-align: left;
+    display: flex;
+    align-items: center;
+}
+
+.producto-info {
+    flex: 1;
+}
+
+.producto h2 {
+    font-size: 24px;
+    margin: 0;
+}
+
+.producto p {
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+/* Estilos de la sección "Nosotros" */
+.nosotros {
+    background-color: #fff;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.nosotros h2 {
+    font-size: 32px;
+    margin: 0;
+}
+
+.nosotros p {
+    font-size: 18px;
+}
+
+footer {
+    background-color: #fff;
+    border-radius: 0 0 10px 10px;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    padding: 20px 0;
+}
+
+.contacto h3,
+.permisos h3 {
+    font-size: 25px;
+    margin: 0;
+    font-weight: bold;
+}
+
+.contacto p,
+.permisos p {
+    font-size: 16px;
+    margin: 10px 0;
+}
+.boton {
+    padding: 10px 20px;
+    font-size: 30px;
+    background-color: #ff8c00;
+    margin-bottom: 100px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
