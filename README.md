@@ -1,5 +1,4 @@
 # FrenTosh
-Claro, aquí tienes una descripción de cómo funciona tu negocio de Frentosh, incluyendo cómo se despachan los pedidos:
 
 **Descripción del Negocio:**
 
