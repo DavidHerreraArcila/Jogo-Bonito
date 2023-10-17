@@ -1,24 +1,62 @@
-/* Agregamos estilos para los botones de cantidad */
-.quantity-button {
-    font-size: 20px;
-    width: 30px;
-    height: 30px;
-    background-color: #f4f4f4;
-    border: none;
-    cursor: pointer;
-}
-
-/* Estilos para la sección de cantidad */
-.product-quantity {
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0e6d2; /* Color alusivo a un pan horneado */
+    margin: 0;
+    padding: 0;
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
+    height: 100vh;
 }
 
-/* Estilos adicionales para la cantidad */
+.container {
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    width: 100%;
+    text-align: center;
+}
+
+.product {
+    margin-bottom: 20px;
+    border: 1px solid #e0e0e0;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #faf3e0; /* Color de fondo alusivo a un pan horneado */
+}
+
+.product img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.product h2 {
+    margin-top: 10px;
+    font-size: 1.2em;
+    color: #5d4037; /* Color marrón oscuro */
+}
+
+.product p {
+    color: #6d6d6d; /* Color gris oscuro para el precio */
+}
+
+.product-quantity {
+    margin-top: 10px;
+}
+
+.quantity-button {
+    font-size: 1em;
+    background-color: #8d6e63; /* Color marrón claro */
+    color: #ffffff;
+    border: none;
+    border-radius: 9px;
+    cursor: pointer;
+    margin: 0 5px;
+}
+
 .quantity {
-    font-size: 20px;
-    margin: 0;
-    padding: 5px;
+    font-size: 1em;
 }
