@@ -25,3 +25,51 @@ Frentosh es una tienda en línea especializada en la creación de exquisitos fre
 9. **Satisfacción Garantizada:** Estamos comprometidos con la satisfacción del cliente. Si hay algún problema con el pedido, estamos disponibles para resolver cualquier inconveniente y garantizar que nuestros clientes estén contentos con su experiencia.
 
 Frentosh se esfuerza por ofrecer una experiencia de compra en línea sencilla y conveniente, respaldada por la calidad y el sabor excepcionales de nuestros productos. Nuestro enfoque en la frescura, la personalización y la entrega confiable hace que disfrutar de nuestros frentosh sea una experiencia verdaderamente placentera para nuestros clientes.
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ Las tecnologias que usamos fue PHYTON y JAVASCRIPT, ¿para que sirven?
+ 
+**Python:**
+1. **Automatización de Procesos:** Python es ampliamente utilizado para la automatización de tareas y procesos comerciales. Puedes utilizarlo para agilizar la gestión de pedidos, seguimiento de inventario, generación de informes y más.
+
+2. **Procesamiento de Datos:** Puedes emplear Python para analizar datos relacionados con las ventas, el inventario o el rendimiento del negocio. Las bibliotecas como Pandas y NumPy facilitan la manipulación y el análisis de datos.
+
+3. **Integración de Sistemas:** Python es eficaz para la integración de sistemas y servicios, lo que puede ser útil para conectar tu tienda en línea con plataformas de pago, sistemas de envío, etc.
+
+**JavaScript:**
+1. **Diseño y Funcionalidad del Sitio Web:** JavaScript es fundamental en el desarrollo de sitios web interactivos. Puedes utilizarlo para crear características dinámicas, como formularios interactivos, carritos de compra y ventanas emergentes.
+
+2. **Validación de Formularios:** Puedes emplear JavaScript para validar la información ingresada por los usuarios en formularios en línea, asegurando que los datos sean correctos antes de enviarlos.
+
+3. **Interacción en Tiempo Real:** JavaScript es esencial para crear chat en vivo, notificaciones en tiempo real y otras funciones que mejoran la experiencia del usuario en tu sitio web.
+
+4. **Mejora de la Experiencia del Usuario:** Las animaciones y transiciones creadas con JavaScript pueden hacer que tu sitio web sea más atractivo y agradable de usar, lo que puede aumentar la retención de clientes.
+
+5. **Seguimiento y Análisis del Usuario:** JavaScript se usa para implementar herramientas de análisis web que proporcionan información valiosa sobre el comportamiento de los visitantes en tu sitio web.
+
+En resumen, Python se utiliza principalmente para la automatización de procesos comerciales y el análisis de datos, mientras que JavaScript se enfoca en el desarrollo de la funcionalidad y la interactividad de tu sitio web. Estas dos tecnologías se complementan perfectamente para brindar una experiencia de usuario más completa y mejorar la eficiencia de tu negocio de Frentosh en línea.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
