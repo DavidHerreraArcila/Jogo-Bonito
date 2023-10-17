@@ -26,27 +26,28 @@ Frentosh es una tienda en línea especializada en la creación de exquisitos fre
 
 Frentosh se esfuerza por ofrecer una experiencia de compra en línea sencilla y conveniente, respaldada por la calidad y el sabor excepcionales de nuestros productos. Nuestro enfoque en la frescura, la personalización y la entrega confiable hace que disfrutar de nuestros frentosh sea una experiencia verdaderamente placentera para nuestros clientes.
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
- Las tecnologias que usamos fue Python y JavaScript, ¿para que sirven?
- 
-**Python:**
-1. **Automatización de Procesos:** Python es ampliamente utilizado para la automatización de tareas y procesos comerciales. Puedes utilizarlo para agilizar la gestión de pedidos, seguimiento de inventario, generación de informes y más.
+ Las tecnologias que usamos fue HTML SCC y JavaScript, ¿para que sirven?
 
-2. **Procesamiento de Datos:** Puedes emplear Python para analizar datos relacionados con las ventas, el inventario o el rendimiento del negocio. Las bibliotecas como Pandas y NumPy facilitan la manipulación y el análisis de datos.
+1. **HTML (HyperText Markup Language):**
+   - HTML es el lenguaje de marcado utilizado para crear la estructura y el contenido básico de una página web. Permite definir elementos como encabezados, párrafos, listas, imágenes, enlaces y formularios.
+   - HTML es esencial para organizar la información en una página web de manera semántica, lo que significa que se utiliza para describir la función de cada elemento en el contenido.
+   - Es la base sobre la cual se construye una página web y proporciona la estructura fundamental para la presentación de datos.
 
-3. **Integración de Sistemas:** Python es eficaz para la integración de sistemas y servicios, lo que puede ser útil para conectar tu tienda en línea con plataformas de pago, sistemas de envío, etc.
+2. **CSS (Cascading Style Sheets):**
+   - CSS se utiliza para controlar la presentación y el diseño de una página web. Permite definir el estilo visual de los elementos HTML, como colores, fuentes, márgenes, tamaños de texto y diseño.
+   - CSS separa la estructura (definida por HTML) del diseño (definido por CSS), lo que facilita la creación de diseños atractivos y consistentes en toda la web.
+   - Además, CSS permite la adaptación de la presentación a diferentes tamaños de pantalla y dispositivos, lo que es esencial para el diseño web receptivo (responsive design).
 
-**JavaScript:**
-1. **Diseño y Funcionalidad del Sitio Web:** JavaScript es fundamental en el desarrollo de sitios web interactivos. Puedes utilizarlo para crear características dinámicas, como formularios interactivos, carritos de compra y ventanas emergentes.
+3. **JavaScript:**
+   - JavaScript es un lenguaje de programación de alto nivel que se utiliza para agregar interactividad y dinamismo a las páginas web. Permite realizar acciones como validar formularios, crear efectos visuales, cargar contenido de manera dinámica y responder a la interacción del usuario.
+   - Con JavaScript, es posible crear aplicaciones web complejas, como juegos en línea, aplicaciones de chat en tiempo real y aplicaciones de comercio electrónico que responden a las acciones de los usuarios.
+   - JavaScript se ejecuta en el navegador web del usuario, lo que lo convierte en una parte fundamental de las aplicaciones web modernas.
 
-2. **Validación de Formularios:** Puedes emplear JavaScript para validar la información ingresada por los usuarios en formularios en línea, asegurando que los datos sean correctos antes de enviarlos.
+En conjunto, HTML, CSS y JavaScript son las bases esenciales para el desarrollo web. HTML define la estructura del contenido, CSS se encarga de su presentación visual y JavaScript agrega interactividad y funcionalidad dinámica. Esta combinación de tecnologías permite crear sitios web atractivos y funcionales que pueden adaptarse a diversas necesidades y ofrecer una experiencia de usuario de alta calidad en la web.
 
-3. **Interacción en Tiempo Real:** JavaScript es esencial para crear chat en vivo, notificaciones en tiempo real y otras funciones que mejoran la experiencia del usuario en tu sitio web.
 
-4. **Mejora de la Experiencia del Usuario:** Las animaciones y transiciones creadas con JavaScript pueden hacer que tu sitio web sea más atractivo y agradable de usar, lo que puede aumentar la retención de clientes.
 
-5. **Seguimiento y Análisis del Usuario:** JavaScript se usa para implementar herramientas de análisis web que proporcionan información valiosa sobre el comportamiento de los visitantes en tu sitio web.
 
- Python se utiliza principalmente para la automatización de procesos comerciales y el análisis de datos, mientras que JavaScript se enfoca en el desarrollo de la funcionalidad y la interactividad de tu sitio web. Estas dos tecnologías se complementan perfectamente para brindar una experiencia de usuario más completa y mejorar la eficiencia de tu negocio de Frentosh en línea.
 
 
 
