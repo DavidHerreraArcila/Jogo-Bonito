@@ -1,0 +1,24 @@
+/* Agregamos estilos para los botones de cantidad */
+.quantity-button {
+    font-size: 20px;
+    width: 30px;
+    height: 30px;
+    background-color: #f4f4f4;
+    border: none;
+    cursor: pointer;
+}
+
+/* Estilos para la sección de cantidad */
+.product-quantity {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Estilos adicionales para la cantidad */
+.quantity {
+    font-size: 20px;
+    margin: 0;
+    padding: 5px;
+}
