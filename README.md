@@ -26,7 +26,7 @@ Frentosh es una tienda en línea especializada en la creación de exquisitos fre
 
 Frentosh se esfuerza por ofrecer una experiencia de compra en línea sencilla y conveniente, respaldada por la calidad y el sabor excepcionales de nuestros productos. Nuestro enfoque en la frescura, la personalización y la entrega confiable hace que disfrutar de nuestros frentosh sea una experiencia verdaderamente placentera para nuestros clientes.
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
- Las tecnologias que usamos fue PHYTON y JAVASCRIPT, ¿para que sirven?
+ Las tecnologias que usamos fue Python y JavaScript, ¿para que sirven?
  
 **Python:**
 1. **Automatización de Procesos:** Python es ampliamente utilizado para la automatización de tareas y procesos comerciales. Puedes utilizarlo para agilizar la gestión de pedidos, seguimiento de inventario, generación de informes y más.
