@@ -1,5 +1,4 @@
 body {
-    font-family: knockout,;
     background-color: #ffffff;
     margin: 0;
     padding: 0;
@@ -19,8 +18,9 @@ h1 {
     color: white;
 }
 .border-letter {
-    font-size: 200px;
-    -webkit-text-stroke:5px #a04500;
+    font-size: 250px;
+    -webkit-text-stroke: 3.5px #000000;
+    font-family: "Algerian";
 }
 
 .button-container {
@@ -66,3 +66,17 @@ footer {
     text-align: center;
     padding: 20px 0;
 }
+
+.body {
+    font-family: 'Vivaldi';
+    }
+    body {
+        background-image: url('../images/Imagen\ de\ fondo.jpg'); /* Ruta del archivo GIF */
+        background-size: cover; /* Cubre todo el viewport */
+        background-repeat: no-repeat; /* No se repite */
+        background-attachment: center; /* Fija el fondo en su lugar */
+        /* Otras propiedades opcionales */
+        background-position: center center; /* Posición del fondo */
+        background-color: transparent; /* Color de fondo por si el GIF no carga */
+    }
+    

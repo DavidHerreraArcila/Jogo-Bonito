@@ -1,6 +1,6 @@
 body {
     background: rgb(217, 210, 210);
-    background: linear-gradient(180deg, rgba(217, 210, 210, 1) 4%, rgba(191, 159, 159, 1) 40%, rgba(215, 195, 147, 1) 92%);
+    background: #f0e6d2;
     margin: 0;
     padding: 0;
     display: flex;
@@ -8,53 +8,70 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: #f0f0f0;
 }
 
 .image-container {
     display: flex;
-
     justify-content: center;
-
     align-items: center;
-
+    margin-bottom: 25px;
+    border: 10px solid black;
+    max-width: 80%;
+    /* Asegura que el contenedor no sea más ancho que el 80% del ancho de la ventana */
+    padding: 20px;
+    /* Espacio interno dentro del contenedor */
+    background-color: rgba(255, 255, 255, 0.8);
+    /* Fondo semi-transparente blanco */
+    border-radius: 10px;
+    /* Bordes redondeados */
 }
 
 .image-container img {
-    max-width: 10%;
+    max-width: 12%;
     /* Asegura que las imágenes no superen el ancho del contenedor */
-    margin: 15px;
+    margin: 20px;
     /* Espacio entre las imágenes */
 }
 
-
 h1 {
-    font-size: 100px;
+    font-size: 150px;
     color: rgb(0, 0, 0);
+    font-family: 'Parisienne';
+    -webkit-text-stroke: 4px #ffffff;
+}
+
+.image-container p,
+.Descripcion p {
+    font-size: 25px;
+    color: #333;
+    text-align: center;
 }
 
 
 .image-container {
     text-align: center;
-    margin-bottom: 20px;
-    /* Espacio entre cada imagen con texto */
-    margin: 20;
-    border: 10px solid black;
-    /* Borde negro */
+    /* Centrar las imágenes y textos */
+    margin-bottom: 30px;
+    /* Espacio entre imágenes y texto */
 }
 
-.image-container p {
-    font-size: 30px;
-    /* Tamaño del texto */
-    color: #333;
-    /* Color del texto */
-    justify-content: center;
-    align-items: center;
-
+.image-container img {
+    border-radius: 50%;
+    /* Añadir bordes redondeados a las imágenes */
+    margin-bottom: 10px;
+    /* Espacio entre imágenes */
 }
-.Descripcion p {
-    font-size: 20px;
-    color: #333;
-    justify-content: center;
-    align-items: center;
+
+.image-container {
+    text-align: center;
+    /* Centrar las imágenes y textos */
+    margin-bottom: 30px;
+    /* Espacio entre imágenes y texto */
+}
+
+.image-container img {
+    border-radius: 50%;
+    /* Añadir bordes redondeados a las imágenes */
+    margin-bottom: 10px;
+    /* Espacio entre imágenes */
 }

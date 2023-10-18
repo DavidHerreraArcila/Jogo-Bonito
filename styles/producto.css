@@ -1,10 +1,9 @@
-/* Estilos generales */
 body {
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
     background: rgb(245, 255, 0);
-    background: linear-gradient(9deg, rgba(245, 255, 0, 1) 29%, rgba(255, 174, 17, 1) 68%);
+    background:   #faf3e0;
 }
 
 .container {
@@ -15,7 +14,7 @@ body {
 
 /* Estilos de la cabecera */
 header {
-    background: #8d4925(255, 255, 255);
+    background: #faf3e0;
     border-radius: 10px 10px 0 0;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
     text-align: center;
@@ -62,7 +61,7 @@ main {
     padding: 20px;
     border: 1px solid #ccc;
     border-radius: 10px;
-    background-color: #fff;
+    background-color:  #e09232;;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
     text-align: left;
     display: flex;

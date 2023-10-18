@@ -7,6 +7,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
+
 }
 
 .container {
@@ -17,6 +18,7 @@ body {
     max-width: 600px;
     width: 100%;
     text-align: center;
+
 }
 
 .product {
@@ -35,20 +37,21 @@ body {
 
 .product h2 {
     margin-top: 10px;
-    font-size: 1.2em;
+    font-size: 1.5em;
     color: #5d4037; /* Color marrón oscuro */
 }
 
 .product p {
     color: #6d6d6d; /* Color gris oscuro para el precio */
+    font-size: 1.5em;
 }
 
 .product-quantity {
-    margin-top: 10px;
+    margin-top: 15px;
 }
 
 .quantity-button {
-    font-size: 1em;
+    font-size: 1.3em;
     background-color: #8d6e63; /* Color marrón claro */
     color: #ffffff;
     border: none;
@@ -60,3 +63,4 @@ body {
 .quantity {
     font-size: 1em;
 }
+

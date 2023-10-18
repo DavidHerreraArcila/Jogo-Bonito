@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/carrito.css">
+    <title>Carrito | FrenTosh</title>
+    <link rel="icon" type="image/png" sizes="16x16" href="./images/android-chrome-512x512.png">
+    <style>
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="product">
+            <h2>FrenTosh de Avellana</h2>
+            <p>Precio: $3.000</p>
+            <img src="../images/Nutella.jpg" alt="Producto 1">
+<div class="product-quantity">
+    <button class="quantity-button" onclick="decrement(1)">No me des tantos (-) </button>
+    <span id="counter1">0</span>
+    <button class="quantity-button" onclick="increment(1)">Quiero Más (+) </button>
+</div>
+        </div>
+
+        <div class="product">
+            <h2>FrenTosh de Clasico</h2>
+            <p>Precio: $3.000</p>
+            <img src="../images/Miel.jpg" alt="Producto 2">
+            <div class="product-quantity">
+                <button class="quantity-button" onclick="increment(2)">Quiero Mas!! (+) </button>
+                <span id="counter2">0</span>
+                <button class="quantity-button" onclick="decrement(2)">No me de Tantos (-) </button>
+            </div>
+        </div>
+
+        <div class="product">
+            <h2>FrenTosh de Crema de Mani y Mermelada</h2>
+            <p>Precio: $3.000</p>
+            <img src="../images/Mermelada y crema de mani.jpg" alt="Producto 3">
+            <div class="product-quantity">
+                <button class="quantity-button" onclick="increment(3)">Quiero Mas!! (+) </button>
+                <span id="counter3">0</span>
+                <button class="quantity-button" onclick="decrement(3)">No me de Tantos (-) </button>
+            </div>
+        </div>
+
+        <div class="product">
+            <h2>FrenTosh Mixto</h2>
+            <p>Precio: $8.000</p>
+            <img src="../images/Mixto.jpg" alt="Producto 4">
+            <div class="product-quantity">
+                <button class="quantity-button" onclick="increment(4)">Quiero Mas!! (+) </button>
+                <span id="counter4">0</span>
+                <button class="quantity-button" onclick="decrement(4)">No me de Tantos (-) </button>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        let counts = [0, 0, 0, 0];
+        const maxCount = 10;
+        const minCount = 0;
+
+        function updateCounter(index) {
+            document.getElementById('counter' + index).textContent = counts[index - 1];
+        }
+
+        function increment(index) {
+            if (counts[index - 1] < maxCount) {
+                counts[index - 1]++;
+                updateCounter(index);
+            }
+        }
+
+        function decrement(index) {
+            if (counts[index - 1] > minCount) {
+                counts[index - 1]--;
+                updateCounter(index);
+            }
+        }
+    </script>
+</body>
+
+</html>
