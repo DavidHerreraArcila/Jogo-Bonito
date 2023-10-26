@@ -4,7 +4,7 @@ body {
     padding: 0;
     font-family: Arial, sans-serif;
     background: rgb(245, 255, 0);
-    background: linear-gradient(9deg, rgba(245, 255, 0, 1) 29%, rgba(255, 174, 17, 1) 68%);
+    background:   #faf3e0;
 }
 
 .container {
@@ -15,7 +15,7 @@ body {
 
 /* Estilos de la cabecera */
 header {
-    background: #8d4925(255, 255, 255);
+    background: #faf3e0;
     border-radius: 10px 10px 0 0;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
     text-align: center;
@@ -62,7 +62,7 @@ main {
     padding: 20px;
     border: 1px solid #ccc;
     border-radius: 10px;
-    background-color: #fff;
+    background-color:  #e09232;;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
     text-align: left;
     display: flex;
@@ -129,4 +129,39 @@ footer {
     border-radius: 5px;
     text-transform: uppercase;
     cursor: pointer;
+}
+
+.image-container {
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+}
+
+.image-container img {
+    max-width: 10%;
+    /* Asegura que las imágenes no superen el ancho del contenedor */
+    margin: 15px;
+    /* Espacio entre las imágenes */
+}
+
+.image-container {
+    text-align: center;
+    margin-bottom: 20px;
+    /* Espacio entre cada imagen con texto */
+    margin: 20;
+    border: 10px solid black;
+    /* Borde negro */
+}
+
+.image-container p {
+    font-size: 30px;
+    /* Tamaño del texto */
+    color: #333;
+    /* Color del texto */
+    justify-content: center;
+    align-items: center;
+
 }
