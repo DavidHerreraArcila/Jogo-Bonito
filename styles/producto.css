@@ -1,10 +1,9 @@
-/* Estilos generales */
 body {
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
     background: rgb(245, 255, 0);
-    background:   #faf3e0;
+    background: #faf3e0;
 }
 
 .container {
@@ -13,7 +12,7 @@ body {
     padding: 20px;
 }
 
-/* Estilos de la cabecera */
+
 header {
     background: #faf3e0;
     border-radius: 10px 10px 0 0;
@@ -49,7 +48,7 @@ nav a {
     font-size: 18px;
 }
 
-/* Estilos de los productos */
+
 main {
     display: flex;
     flex-wrap: wrap;
@@ -62,7 +61,8 @@ main {
     padding: 20px;
     border: 1px solid #ccc;
     border-radius: 10px;
-    background-color:  #e09232;;
+    background-color: #e09232;
+    ;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
     text-align: left;
     display: flex;
@@ -83,7 +83,7 @@ main {
     margin: 10px 0;
 }
 
-/* Estilos de la sección "Nosotros" */
+
 .nosotros {
     background-color: #fff;
     padding: 40px 0;
@@ -119,6 +119,7 @@ footer {
     font-size: 16px;
     margin: 10px 0;
 }
+
 .boton {
     padding: 10px 20px;
     font-size: 30px;
@@ -142,25 +143,25 @@ footer {
 
 .image-container img {
     max-width: 10%;
-    /* Asegura que las imágenes no superen el ancho del contenedor */
+
     margin: 15px;
-    /* Espacio entre las imágenes */
+
 }
 
 .image-container {
     text-align: center;
     margin-bottom: 20px;
-    /* Espacio entre cada imagen con texto */
+
     margin: 20;
     border: 10px solid black;
-    /* Borde negro */
+
 }
 
 .image-container p {
     font-size: 30px;
-    /* Tamaño del texto */
+
     color: #333;
-    /* Color del texto */
+
     justify-content: center;
     align-items: center;
 

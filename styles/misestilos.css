@@ -1,5 +1,4 @@
 body {
-    font-family: knockout,;
     background-color: #ffffff;
     margin: 0;
     padding: 0;
@@ -18,9 +17,14 @@ h1 {
     font-size: 200px;
     color: white;
 }
+
 .border-letter {
+
     font-size: 200px;
-    -webkit-text-stroke:5px #ffffff;
+    -webkit-text-stroke: 5px #ffffff;
+    font-size: 250px;
+    -webkit-text-stroke: 3.5px #000000;
+    font-family: "Algerian";
 }
 
 .button-container {
@@ -48,14 +52,14 @@ body {
     background-image: url('../images/Imagen.jpg');
     background-size: cover;
     background-repeat: no-repeat;
-    background-attachment: fixed; 
+    background-attachment: fixed;
 }
 
 .permiso {
     max-width: 1200px;
     margin: 0 auto;
     padding: 0px;
-    text-align: center; 
+    text-align: center;
     nav-up: 1000;
 }
 
@@ -65,4 +69,18 @@ footer {
     box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.2);
     text-align: center;
     padding: 20px 0;
+}
+
+.body {
+    font-family: 'Vivaldi';
+}
+
+body {
+    background-image: url('../images/Imagen\ de\ fondo.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: center;
+
+    background-position: center center;
+    background-color: transparent;
 }
