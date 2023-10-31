@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/Compra.css">
+    <link rel="icon" type="image/png" sizes="16x16" href="./images/android-chrome-512x512.png">
+    <title>Pago | FrenTosh</title>
+</head>
+
+<body>
+    <div class="payment-container">
+        <h2>Seleccione un método de pago</h2>
+        <div class="payment-methods">
+            <div class="payment-method" id="method1">
+                <div class="payment-icon card-icon"></div>
+            </div>
+            <div class="payment-method" id="method2">
+                <div class="payment-icon bank-icon"></div>
+            </div>
+        </div>
+
+        <div class="payment-info">
+            <div id="creditCardDetails">
+                <h2>Datos de Pago</h2>
+                <label for="cardNumber">Número de tarjeta:</label>
+                <input type="text" id="cardNumber" placeholder="0000 0000 0000">
+                <div class="expiration">
+                    <label for="expirationDate">Fecha de vencimiento:</label>
+                    <label for="securityCode">Código de seguridad:</label>
+                </div>
+                <div class="expiration">
+                    <input type="text" id="expirationDate" placeholder="MM/YY">
+                    <input type="text" id="securityCode" placeholder="CVC">
+                </div>
+            </div>
+
+            <div id="paypalDetails" style="display: none;">
+
+            </div>
+
+            <div id="bankTransferDetails" style="display: none;">
+
+            </div>
+
+            <button id="paymentButton">Realizar Pago</button>
+        </div>
+    </div>
+
+    <script>
+        const paymentMethods = document.querySelectorAll(".payment-method");
+        
+        paymentMethods.forEach(method => {
+            method.addEventListener('click', () => {
+                paymentMethods.forEach(m => m.classList.remove('selected'));
+                method.classList.add('selected');
+            });
+        });
+    </script>
+</body>
+
+</html>

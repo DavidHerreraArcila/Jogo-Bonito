@@ -1,0 +1,108 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0e6d2;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.payment-container {
+    background-color: #fff;
+    border-radius: 20px; /* Aumenta el radio del borde para hacerlo más redondeado */
+    padding: 40px; /* Aumenta el espacio interno para hacerlo más grande */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    max-width: 900px; /* Aumenta el ancho máximo para hacerlo más grande */
+    width: 100%;
+    text-align: center;
+}
+
+.payment-methods {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 30px;
+}
+
+.payment-method {
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    padding: 20px; /* Aumenta el espacio interno de cada método */
+    cursor: pointer;
+}
+
+.payment-method.selected {
+    border-color: #007bff;
+    font-weight: bold;
+}
+
+.payment-info {
+    text-align: left;
+}
+
+.payment-info label {
+    font-weight: bold;
+}
+
+.payment-info input {
+    width: 100%;
+    padding: 15px; /* Aumenta el espacio interno de los campos de entrada */
+    margin: 15px 0; /* Aumenta el margen vertical */
+    border: 2px solid #ddd; /* Aumenta el grosor del borde */
+    border-radius: 10px; /* Aumenta el radio del borde */
+}
+
+.payment-info .expiration {
+    display: flex;
+    justify-content: space-between;
+}
+
+.payment-info button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 15px 30px; /* Aumenta el tamaño del botón */
+    border: none;
+    border-radius: 10px; /* Aumenta el radio del borde del botón */
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.payment-info button:hover {
+    background-color: #0056b3;
+}
+
+.expiration {
+    display: flex;
+    justify-content: space-between;
+}
+
+.expiration label {
+    flex: 1;
+}
+
+.expiration input {
+    flex: 2;
+}
+
+.payment-icon {
+    display: inline-block;
+    width: 100px; /* Aumenta el tamaño de los íconos */
+    height: 100px; /* Aumenta el tamaño de los íconos */
+    margin-right: 20px; /* Aumenta el espacio entre los íconos y el texto */
+}
+
+.card-icon {
+    background-image: url('../images/mastercard.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.bank-icon {
+    background-image: url('../images/visa.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}

@@ -6,8 +6,8 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 355vh;
-
+    height: 360vh;
+    
 }
 
 .container {
@@ -26,7 +26,6 @@ body {
     padding: 10px;
     border-radius: 5px;
     background-color: #faf3e0;
-
 }
 
 .product img {
@@ -35,27 +34,16 @@ body {
     border-radius: 5px;
 }
 
+
 .product h2 {
     margin-top: 10px;
-    font-size: 1.2em;
     font-size: 1.5em;
     color: #5d4037;
-
 }
 
 .product p {
     color: #6d6d6d;
     font-size: 1.3em;
-
-}
-
-.product-quantity {
-    margin-top: 10px;
-}
-
-.quantity-button {
-    font-size: 1em;
-    font-size: 1.5em;
 }
 
 .product-quantity {
@@ -107,11 +95,13 @@ body {
     margin: 50px auto;
     background-color: #f9f9f9;
     width: 100%;
-    max-width: 900px;
+    max-width: 90000px;
     box-sizing: border-box;
     text-align: center;
 }
-
+.comprar {
+    background-color: #0056b3;
+}
 
 .opinion {
     border: 1px solid #000000;
@@ -120,7 +110,6 @@ body {
     width: 90%;
     max-width: 800px;
     margin: 0 auto;
-
 }
 
 .usuario {
@@ -140,7 +129,6 @@ body {
     font-size: 20px;
     margin-top: 10px;
 }
-
 
 .texto-opinion {
     margin-left: 100px;
@@ -184,7 +172,6 @@ body {
     transition: background-color 0.3s;
     font-family: 'Otra Fuente', sans-serif;
 }
-
 
 .nueva-opinion button:hover {
     background-color: #0056b3;

@@ -11,8 +11,8 @@
     </style>
 </head>
 
-<body>    
-    <footer>
+<body>  
+<footer>
     <div class="container">
         <div class="product">
             <h2>FrenTosh de Avellana</h2>
@@ -59,6 +59,7 @@
         </div>
     </div>
 
+<footer>
     <script>
         let counts = [0, 0, 0, 0];
         const maxCount = 10;
@@ -91,13 +92,18 @@
             }
 
             document.getElementById('total').textContent = 'Total: $' + total;
+            
         }
+        
     </script>
-    <div class="checkout">
-        <button onclick="calcularTotal()">Comprar</button>
-        <div id="total"></div>
-    </div>
 
+    
+    <div class="checkout">
+        <button onclick="calcularTotal()">Precio</button>
+        <div id="total"></div>
+    <a href="./Comprarya.html">
+        <button>Ven Y disfutalo</button></a>
+    </div>
 
     <div class="opiniones-container">
         <h2>OPINIONES</h2>
@@ -159,8 +165,7 @@
                 <button type="submit">Enviar opinión</button>
             </form>
         </div>
-        
-    </footer>
+</footer>
 </body>
 
 </html>
