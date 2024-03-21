@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/quienessomos.css">
+    <title>Fundadores | FrenTosh</title>
+    <link rel="icon" type="image/png" sizes="16x16" href="./images/android-chrome-512x512.png">
+    <h1>Fundadores</h1>
+</head>
+
+<body>
+    <div class="image-container">
+        <img src="./images/Carlos.jpg"> <br>
+        <p> Carlos Ruiz - 16 años</p>
+
+        <img src="./images/David.jpg"> <br>
+        <p>David Herrera - 17 años</p>
+
+        <img src="./images/Juan Diego.jpg"> <br>
+        <p>Juan Diego Perez - 17 años</p>
+
+        <img src="./images/Prisco.jpg">
+        <p>Samuel Prisco - 16 años</p>
+
+        <img src="./images/Zuñiga.jpg">
+        <p>Sebastian Zúñiga - 17 años</p>
+    </div>
+    <div class="container">
+        <div class="Descripcion">
+
+            <hr> <p>FrenTosh es una empresa fundada por cinco emprendedores apasionados por la gastronomía y la innovación:
+                Samuel Prisco, Carlos Ruiz, David Herrera, Juan Diego Pérez y Sebastián Zúñiga. Estos jóvenes
+                estudiantes son originarios de la Institución Educativa Concejo de Sabaneta J.M.C.B, donde compartieron
+                su visión de crear un negocio que ofrezca una experiencia única en tostadas francesas. <br>
+
+                Nuestra empresa, FrenTosh, se especializa en la preparación y venta de tostadas francesas excepcionales.
+                Nuestro enfoque se centra en la calidad de los ingredientes y la creatividad en la presentación. Cada
+                tostada francesa es una obra maestra culinaria que combina sabores exquisitos con una presentación
+                visualmente atractiva. <br>
+
+                Lo que nos diferencia en FrenTosh es la atención meticulosa a los detalles y la pasión por la
+                gastronomía. Utilizamos ingredientes frescos y de alta calidad para crear tostadas francesas únicas que
+                deleitarán tus papilas gustativas. Nuestro menú incluye una variedad de opciones, desde las clásicas
+                tostadas francesas con jarabe de arce hasta creaciones más audaces con ingredientes sorprendentes. <br>
+
+                Además de ofrecer tostadas francesas deliciosas, en FrenTosh valoramos la sostenibilidad y la comunidad.
+                Nos esforzamos por mantener prácticas ecoamigables en nuestra operación y apoyamos a la comunidad local
+                siempre que podemos. <br>
+
+                En resumen, FrenTosh es más que una empresa de tostadas francesas; es una expresión de pasión,
+                creatividad y compromiso con la calidad. Nuestro objetivo es brindar una experiencia culinaria única y
+                deliciosa a nuestros clientes mientras contribuimos positivamente a nuestra comunidad. ¡Esperamos que
+                disfrutes de nuestras tostadas francesas y te unas a nosotros en este apasionante viaje gastronómico! <br></h4>
+         </p> 
+        </div>
+    </div>
+
+</body>
+
+</html>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notificaciones Falsas</title>
+    <!-- Agrega tus estilos CSS aquí -->
+</head>
+<body>
+    <h1>Mis Eventos Próximos</h1>
+    <ul id="eventos-lista">
+        <li>Recordatorio: Mañana a las 10:00 AM tenemos una reunión de equipo. ¡No faltes!</li>
+        <li>Próximo evento: El jueves a las 18:30 tendremos entrenamiento de fútbol en el campo.</li>
+        <li>No olvides: El sábado a las 9:00 AM tendremos un emocionante partido de baloncesto en el gimnasio.</li>
+        <li>¡Atención! Microfútbol: El domingo a las 16:00, ven al campo para disfrutar de un torneo de microfútbol.</li>
+        <!-- Puedes agregar más notificaciones aquí -->
+    </ul>
+
+    <script>
+        // Función para generar notificaciones falsas aleatoriamente
+        function generarNotificacion() {
+            const eventos = [
+                "Reunión de equipo",
+                "Entrenamiento de fútbol",
+                "Partido de baloncesto",
+                "Torneo de microfútbol"
+            ];
+            const eventoAleatorio = eventos[Math.floor(Math.random() * eventos.length)];
+
+            const lista = document.getElementById("eventos-lista");
+            const li = document.createElement("li");
+            li.textContent = `Próximo evento: ${eventoAleatorio}`;
+            lista.appendChild(li);
+        }
+
+        // Generar una notificación cada 30 segundos
+        setInterval(generarNotificacion, 30000);
+    </script>
+</body>
+</html>

@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+</head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Notificaciones Falsas</title>
+<!-- Agrega tus estilos CSS aquí -->
+<style>
+    body {
+        margin: 0;
+        padding: 0;
+        font-family: Arial, sans-serif;
+    }
+
+    .notificacion {
+        display: none; /* Oculta la notificación al inicio */
+        position: fixed;
+        top: 0;
+        left: 0;
+        background-color: #ff6d00;
+        color: white;
+        padding: 10px;
+        width: 250px;
+        box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    }
+
+    .cerrar {
+        position: absolute;
+        top: 5px;
+        right: 5px;
+        cursor: pointer;
+    }
+</style>
+</head>
+<body>
+<div class="notificacion" id="notificacion">
+    <span class="cerrar" onclick="cerrarNotificacion()">&times;</span>
+    <p id="mensaje-notificacion"></p>
+</div>
+
+<script>
+    // Función para generar notificaciones falsas aleatoriamente
+    function generarNotificacion() {
+        const eventos = [
+            "Próximo evento: El jueves a las 18:30 tendremos entrenamiento de fútbol en el campo.",
+            "No olvides: El sábado a las 9:00 AM tendremos un emocionante partido de baloncesto en el gimnasio.",
+            "¡Atención! Microfútbol: El domingo a las 16:00, ven al campo para disfrutar de un torneo de microfútbol."
+        ];
+        const eventoAleatorio = eventos[Math.floor(Math.random() * eventos.length)];
+
+        document.getElementById("mensaje-notificacion").textContent = eventoAleatorio;
+        document.getElementById("notificacion").style.display = "block"; // Muestra la notificación
+    }
+
+    // Generar una notificación después de 5 segundos
+    setTimeout(generarNotificacion, 30000);
+
+    // Función para cerrar la notificación y generar una nueva
+    function cerrarNotificacion() {
+        document.getElementById("notificacion").style.display = "none";
+        setTimeout(generarNotificacion, 30000); // Generar una nueva notificación después de cerrar
+    }
+
+</script>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notificaciones Falsas</title>
+    <!-- Agrega tus estilos CSS aquí -->
+</head>
+<body>
+    <h1>Mis Eventos Próximos</h1>
+    <ul id="eventos-lista">
+        <li>Recordatorio: Mañana a las 10:00 AM tenemos una reunión de equipo. ¡No faltes!</li>
+        <li>Próximo evento: El jueves a las 18:30 tendremos entrenamiento de fútbol en el campo.</li>
+        <li>No olvides: El sábado a las 9:00 AM tendremos un emocionante partido de baloncesto en el gimnasio.</li>
+        <li>¡Atención! Microfútbol: El domingo a las 16:00, ven al campo para disfrutar de un torneo de microfútbol.</li>
+        <!-- Puedes agregar más notificaciones aquí -->
+    </ul>
+
+    <script>
+        // Función para generar notificaciones falsas aleatoriamente
+        function generarNotificacion() {
+            const eventos = [
+                "Reunión de equipo",
+                "Entrenamiento de fútbol",
+                "Partido de baloncesto",
+                "Torneo de microfútbol"
+            ];
+            const eventoAleatorio = eventos[Math.floor(Math.random() * eventos.length)];
+
+            const lista = document.getElementById("eventos-lista");
+            const li = document.createElement("li");
+            li.textContent = `Próximo evento: ${eventoAleatorio}`;
+            lista.appendChild(li);
+        }
+
+        // Generar una notificación cada 30 segundos
+        setInterval(generarNotificacion, 30000);
+    </script>
+</body>
+</html>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro de Usuario</title>
+    <!-- Agrega tus estilos CSS aquí -->
+</head>
+<body>
+    <h1>Registro de Usuario</h1>
+    <form action="procesar_registro.php" method="POST">
+        <label for="nombre">Nombre completo:</label>
+        <input type="text" id="nombre" name="nombre" required>
+        <!-- Puedes agregar más detalles, como apellidos, fecha de nacimiento, etc. -->
+
+        <label for="email">Correo electrónico:</label>
+        <input type="email" id="email" name="email" required>
+        <!-- Asegúrate de validar el formato del correo electrónico -->
+
+        <label for="contrasena">Contraseña:</label>
+        <input type="password" id="contrasena" name="contrasena" required>
+        <!-- Considera agregar requisitos de seguridad para la contraseña -->
+
+        <label for="confirmar-contrasena">Confirmar contraseña:</label>
+        <input type="password" id="confirmar-contrasena" name="confirmar-contrasena" required>
+        <!-- Asegúrate de que las contraseñas coincidan -->
+
+        <label for="pais">País:</label>
+        <select id="pais" name="pais">
+            <option value="colombia">Colombia</option>
+            <option value="espana">España</option>
+            <!-- Agrega más opciones según tus necesidades -->
+        </select>
+
+        <label for="intereses">Intereses:</label>
+        <input type="checkbox" id="futbol" name="intereses" value="futbol">
+        <label for="futbol">Fútbol</label>
+        <input type="checkbox" id="baloncesto" name="intereses" value="baloncesto">
+        <label for="baloncesto">Baloncesto</label>
+        <!-- Puedes agregar más intereses o usar radio buttons según prefieras -->
+
+        <input type="submit" value="Registrarse">
+    </form>
+
+    <p>¿Ya tienes una cuenta? <a href="iniciar_sesion.php">Inicia sesión aquí</a>.</p>
+
+    <footer>
+        <p>© 2024 Plataforma de Inscripción en Eventos Deportivos</p>
+    </footer>
+    <!-- Agrega más contenido o scripts aquí si es necesario -->
+</body>
+</html>

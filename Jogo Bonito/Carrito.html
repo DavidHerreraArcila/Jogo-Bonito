@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/carrito.css">
+    <title>Carrito | FrenTosh</title>
+    <link rel="icon" type="image/png" sizes="16x16" href="./images/android-chrome-512x512.png">
+    <style>
+    </style>
+</head>
+
+<body>  
+<footer>
+    <div class="container">
+        <div class="product">
+            <h2>FrenTosh de Avellana</h2>
+            <p>Precio: $3.000</p>
+            <img src="./images/Nutella.jpg" alt="Producto 1">
+            <div class="product-quantity">
+                <button class="quantity-button" onclick="decrement(1)">No me de Tantos (-) </button>
+                <span id="counter1">0</span>
+                <button class="quantity-button" onclick="increment(1)">Quiero Mas!! (+) </button>
+            </div>
+        </div>
+
+        <div class="product">
+            <h2>FrenTosh de Clasico</h2>
+            <p>Precio: $3.000</p>
+            <img src="./images/Miel.jpg" alt="Producto 2">
+            <div class="product-quantity">
+                <button class="quantity-button" onclick="decrement(2)">No me de Tantos (-) </button>
+                <span id="counter2">0</span>
+                <button class="quantity-button" onclick="increment(2)">Quiero Mas!! (+) </button>
+            </div>
+        </div>
+
+        <div class="product">
+            <h2>FrenTosh de Crema de Mani y Mermelada</h2>
+            <p>Precio: $3.000</p>
+            <img src="./images/Mermelada y crema de mani.jpg" alt="Producto 3">
+            <div class="product-quantity">
+                <button class="quantity-button" onclick="decrement(3)">No me de Tantos (-) </button>
+                <span id="counter3">0</span>
+                <button class="quantity-button" onclick="increment(3)">Quiero Mas!! (+) </button>
+            </div>
+        </div>
+
+        <div class="product">
+            <h2>FrenTosh Mixto</h2>
+            <p>Precio: $8.000</p>
+            <img src="./images/Mixto.jpg" alt="Producto 4">
+            <div class="product-quantity">
+                <button class="quantity-button" onclick="decrement(4)">No me de Tantos (-) </button>
+                <span id="counter4">0</span>
+                <button class="quantity-button" onclick="increment(4)">Quiero Mas!! (+) </button>
+            </div>
+        </div>
+    </div>
+
+<footer>
+    <script>
+        let counts = [0, 0, 0, 0];
+        const maxCount = 10;
+        const minCount = 0;
+
+        function updateCounter(index) {
+            document.getElementById('counter' + index).textContent = counts[index - 1];
+        }
+
+        function increment(index) {
+            if (counts[index - 1] < maxCount) {
+                counts[index - 1]++;
+                updateCounter(index);
+            }
+        }
+
+        function decrement(index) {
+            if (counts[index - 1] > minCount) {
+                counts[index - 1]--;
+                updateCounter(index);
+            }
+        }
+
+        function calcularTotal() {
+            let total = 0;
+            const prices = [3000, 3000, 3000, 8000];
+
+            for (let i = 0; i < counts.length; i++) {
+                total += counts[i] * prices[i];
+            }
+
+            document.getElementById('total').textContent = 'Total: $' + total;
+            
+        }
+        
+    </script>
+
+    
+    <div class="checkout">
+        <button onclick="calcularTotal()">Precio</button>
+        <div id="total"></div>
+    <a href="./Comprarya.html">
+        <button>Ven Y disfutalo</button></a>
+    </div>
+
+    <div class="opiniones-container">
+        <h2>OPINIONES</h2>
+    
+        <div class="opinion">
+            <div class="usuario">
+                <img src="./images/Carlitos.jpg" alt="Carlitos AA">
+                <p>Carlitos AA</p>
+            </div>
+            <div class="texto-opinion">
+                <p>¡Excelente producto! Me encantó. Lo recomiendo.</p>
+            </div>
+        </div>
+    
+        <div class="opinion">
+            <div class="usuario">
+                <img src="./images/JuanDi.jpg" alt="JuanDi">
+                <p>JuanDi</p>
+            </div>
+            <div class="texto-opinion">
+                <p>Me gustó mucho, pero el precio es un poco alto.</p>
+            </div>
+        </div>
+    
+        <div class="opinion">
+            <div class="usuario">
+                <img src="./images/copitodenieve.jpeg" alt="Frijolito">
+                <p>Frijolito</p>
+            </div>
+            <div class="texto-opinion">
+                <p>¡Increíble sabor y textura! Definitivamente compraré de nuevo.</p>
+            </div>
+        </div>
+    
+        <div class="opinion">
+            <div class="usuario">
+                <img src="./images/care-washintong.PNG" alt="Care-Washington">
+                <p>Care-Washington</p>
+            </div>
+            <div class="texto-opinion">
+                <p>Me encantó, es un gran snack para compartir con amigos.</p>
+            </div>
+        </div>
+    </div>
+    
+    
+
+        <div class="nueva-opinion">
+            <h2>Escribe tu opinión</h2>
+            <form>
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre">
+                
+                <label for="correo">Correo Electrónico:</label> 
+                <input type="text" id="correo" name="correo"> 
+                
+                <label for="opinion">Opinión:</label>
+                <textarea id="opinion" name="opinion" rows="4"></textarea>
+                <button type="submit">Enviar opinión</button>
+            </form>
+        </div>
+</footer>
+</body>
+
+</html>
